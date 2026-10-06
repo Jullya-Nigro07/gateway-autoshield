@@ -1,6 +1,7 @@
 # API Gateway🔀 | AutoShield
 
-![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![Serviço](https://img.shields.io/badge/Serviço-Eureka-darkgreen)
 
 ---
 API Gateway do AutoShield, responsável por receber as requisições e encaminhá-las para os microsserviços da aplicação.
@@ -9,7 +10,7 @@ API Gateway do AutoShield, responsável por receber as requisições e encaminh�
 
 O Gateway utiliza o Eureka Server para descobrir os microsserviços registrados.
 
-Eureka Server: https://github.com/Jullya-Nigro07/AutoShield.git
+Eureka Server: https://github.com/Jullya-Nigro07/auto-shield.git
 
 ## Como executar
 - Rode primeiro o Eureka Server.
@@ -19,9 +20,9 @@ Eureka Server: https://github.com/Jullya-Nigro07/AutoShield.git
 
 
 - Inicie os microsserviços que serão utilizados pelo Gateway.
-  - CLIENTE: https://github.com/Jullya-Nigro07/Microservice-Cliente-AutoShield.git
-  - VEÍCULO: Em construção..
-  - SEGURO: Em construção..
+  - CLIENTE: https://github.com/Jullya-Nigro07/microservice-cliente-autoshield.git
+  - VEÍCULO: https://github.com/Jullya-Nigro07/microservice-veiculo-autoshield.git
+  - SEGURO: https://github.com/Jullya-Nigro07/microservice-seguro-autoshield.git
 
 
 - Execute esta aplicação.
